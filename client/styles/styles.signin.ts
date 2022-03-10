@@ -18,7 +18,7 @@ export const AreaInput = styled.div`
   width: 400px;
   border-radius:15px;
 `;
-export const Form = styled.form`
+export const Forms = styled.form`
   width: 400px;
   background: #fff;
   padding: 20px;
@@ -38,7 +38,19 @@ export const Form = styled.form`
     width: 100%;
     text-align: center;
   }
-  input {
+  
+  }
+  .login-form{
+    width: 400px;
+  background: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  }
+  
+  .form-field {
     font: inherit;
     letter-spacing: inherit;
     color: currentColor;
@@ -61,7 +73,6 @@ export const Form = styled.form`
     &::placeholder {
       color: #999;
     }
-  }
   button {
     color: #fff;
     font-size: 16px;
